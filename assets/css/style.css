@@ -10,7 +10,8 @@ body {
   background-image: url(/assets/images/headerbg.jpg);
   background-size: cover;
   background-position: center;
-  background-position-y: -115px; }
+  background-position-y: -115px;
+  height: 100vh; }
 
 .main {
   width: 100%;
@@ -102,7 +103,8 @@ body {
         width: 342px;
         padding: 0 12px;
         font-size: 14px;
-        color: lightgray; }
+        color: lightgray;
+        border: solid 1px lightgray; }
     .header__second-navbar__form__checkInOut {
       margin: 16px 0;
       display: -webkit-box;
@@ -116,7 +118,8 @@ body {
           width: 156px;
           padding: 0 12px;
           font-size: 14px;
-          color: lightgray; }
+          color: lightgray;
+          border: solid 1px lightgray; }
     .header__second-navbar__form__guest {
       margin: 16px 0; }
       .header__second-navbar__form__guest button {
@@ -128,7 +131,8 @@ body {
         width: 370px;
         height: 48px;
         background: transparent;
-        padding: 0 12px; }
+        padding: 0 12px;
+        border: solid 1px lightgray; }
         .header__second-navbar__form__guest button span {
           width: 95%;
           text-align: left;
@@ -178,7 +182,8 @@ body {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     width: 244px;
-    height: 74px; }
+    height: 72px;
+    padding-right: 10px; }
     .main__content__items__list__items__pict {
       width: 96px; }
       .main__content__items__list__items__pict img {
@@ -186,6 +191,8 @@ body {
         height: 100%; }
     .main__content__items__list__items__descr {
       display: grid;
-      width: 148px; }
+      width: 148px;
+      border: solid 1px lightgray; }
       .main__content__items__list__items__descr span {
-        place-self: center start; }
+        place-self: center start;
+        padding-left: 10px; }
