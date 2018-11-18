@@ -78,7 +78,8 @@ body {
       line-height: 16px;
       letter-spacing: 1px; }
     .header__second-navbar__form input {
-      height: 48px; }
+      height: 48px;
+      margin-top: 10px; }
     .header__second-navbar__form__title {
       font-size: 30px !important;
       line-height: 36px !important;
@@ -98,7 +99,7 @@ body {
         margin: 0px !important;
         padding: 0px !important; }
     .header__second-navbar__form__location {
-      margin: 16px 0; }
+      margin: 20px 0; }
       .header__second-navbar__form__location input {
         width: 342px;
         padding: 0 12px;
@@ -106,7 +107,7 @@ body {
         color: lightgray;
         border: solid 1px lightgray; }
     .header__second-navbar__form__checkInOut {
-      margin: 16px 0;
+      margin: 20px 0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -121,7 +122,7 @@ body {
           color: lightgray;
           border: solid 1px lightgray; }
     .header__second-navbar__form__guest {
-      margin: 16px 0; }
+      margin: 20px 0; }
       .header__second-navbar__form__guest button {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -132,7 +133,8 @@ body {
         height: 48px;
         background: transparent;
         padding: 0 12px;
-        border: solid 1px lightgray; }
+        border: solid 1px lightgray;
+        margin-top: 10px; }
         .header__second-navbar__form__guest button span {
           width: 95%;
           text-align: left;
@@ -169,30 +171,47 @@ body {
       text-decoration: none;
       width: 189px; }
 
-.main__content__items__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap; }
-  .main__content__items__list__items {
+.main__content__items {
+  padding-top: 40px;
+  padding-bottom: 10px; }
+  .main__content__items h1 {
+    margin-bottom: 0; }
+  .main__content__items h4 {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    color: #484848 !important;
+    font-weight: normal !important;
+    margin-top: 0px !important;
+    width: 516px; }
+  .main__content__items__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    width: 244px;
-    height: 72px;
-    padding-right: 10px; }
-    .main__content__items__list__items__pict {
-      width: 96px; }
-      .main__content__items__list__items__pict img {
-        width: 100%;
-        height: 100%; }
-    .main__content__items__list__items__descr {
-      display: grid;
-      width: 148px;
-      border: solid 1px lightgray; }
-      .main__content__items__list__items__descr span {
-        place-self: center start;
-        padding-left: 10px; }
+    flex-wrap: nowrap; }
+    .main__content__items__list__items {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      width: 244px;
+      height: 72px;
+      padding-right: 10px; }
+      .main__content__items__list__items__pict {
+        width: 96px; }
+        .main__content__items__list__items__pict img {
+          width: 100%;
+          height: 100%; }
+      .main__content__items__list__items__descr {
+        display: grid;
+        width: 148px;
+        border: solid 1px lightgray; }
+        .main__content__items__list__items__descr span {
+          place-self: center start;
+          padding-left: 10px; }
+  .main__content__items__banner img {
+    width: 100%;
+    margin-top: -5px; }

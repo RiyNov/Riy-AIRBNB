@@ -69,8 +69,10 @@ body{
         width: 370px;
         padding: 35px;
         border-radius: 5px;
+
         & input{
             height: 48px;
+            margin-top: 10px;
         }
         &__title{
             font-size: 30px !important;
@@ -83,6 +85,7 @@ body{
             padding-bottom: 6px !important;
             margin: 0px !important;
             padding: 0px !important;
+        
             & h1{
                 color: inherit !important;
                 font-size: 1em !important;
@@ -93,7 +96,7 @@ body{
             }
         }
         &__location{
-            margin: 16px 0;
+            margin: 20px 0;
             & input{
                 width: 342px;
                 @include inputText;
@@ -101,7 +104,7 @@ body{
             }
         }
         &__checkInOut{
-            margin: 16px 0;
+            margin: 20px 0;
             @include flex;
             &__items{
                 width: 50%;
@@ -114,7 +117,7 @@ body{
 
         }
         &__guest{
-            margin: 16px 0;
+            margin: 20px 0;
             & button{
                 @include flex;
                 width: 370px;
@@ -122,6 +125,7 @@ body{
                 background: transparent;
                 padding: 0 12px;
                 border: solid 1px lightgray;
+                margin-top: 10px;
                 & span{
                     width: 95%;
                     text-align: left;
@@ -168,6 +172,21 @@ body{
 
 .main__content{
     &__items{
+        padding-top: 40px;
+        padding-bottom: 10px;
+        & h1{
+            margin-bottom: 0;
+        }
+        & h4{
+            font-size: 16px !important;
+            line-height: 22px !important;
+            letter-spacing: normal !important;
+            font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+            color: rgb(72, 72, 72) !important;
+            font-weight: normal !important;
+            margin-top: 0px !important;
+            width: 516px;
+        }
         &__list{
             @include flex;
             &__items{
@@ -191,6 +210,12 @@ body{
                         padding-left: 10px;
                     }
                 }
+            }
+        }
+        &__banner{
+            & img{
+                width: 100%;
+                margin-top: -5px;
             }
         }
     }
