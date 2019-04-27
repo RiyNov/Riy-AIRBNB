@@ -7,7 +7,7 @@ body {
   display: grid; }
 
 .header {
-  background-image: url(./assets/images/headerbg.jpg);
+  background-image: url(/Riy-AIRBNB/assets/images/headerbg.jpg);
   background-size: cover;
   background-position: center;
   background-position-y: -115px;
